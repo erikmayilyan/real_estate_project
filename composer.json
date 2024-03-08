@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "league/omnipay": "^3.2",
+        "omnipay/paypal": "^3.0",
+        "stripe/stripe-php": "^13.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
